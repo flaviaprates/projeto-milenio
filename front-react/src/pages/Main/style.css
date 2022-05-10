@@ -1,0 +1,96 @@
+.main-container {
+    min-height: 100vh;
+    background-color: rgb(246, 246, 246);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container h1 {
+    margin-bottom: 20px;
+}
+
+.main-content {
+    width: 500px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    all: unset;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+button.find-routes,
+button.min-distance,
+button.get-graph,
+button.save-graph {
+    width: 220px;
+    height: 180px;
+    border-radius: 10%;
+    text-align: center;
+    padding: 10px;
+}
+
+.find-routes button {
+    background-color: rgb(162, 246, 204);
+}
+
+.min-distance button {
+    background-color: rgb(243, 241, 171);
+}
+
+.get-graph button {
+    background-color: rgb(167, 223, 245);
+}
+
+.save-graph button {
+    background-color: rgb(203, 169, 245);
+    color: rgb(0, 0, 0);
+}
+
+.modal-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(3, 3, 3, 0.5);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.modal-content {
+    width: 500px;
+    height: 450px;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 3%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.modal-content img {
+    width: 20px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}

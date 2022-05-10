@@ -1,0 +1,86 @@
+.save-graph-container {
+    min-height: 100vh;
+    background-color: rgb(246, 246, 246);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.save-graph-container h1 {
+    margin-bottom: 30px;
+}
+
+.save-graph-content {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.save-graph-inputs,
+.save-graph-response {
+    width: 50%;
+    max-height: 400px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.save-graph-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.save-graph-inputs label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.save-graph-inputs input {
+    padding: 2px 4px;
+}
+
+.save-graph-response {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.save-graph-response h2 {
+    margin-bottom: 10px;
+}
+
+.save-graph-routes {
+    width: 150px;
+    overflow-y: auto;
+}
+
+.save-graph-routes .route {
+    margin-bottom: 10px;
+}
+
+.save-graph-inputs button,
+.save-graph-response button {
+    width: 50%;
+    height: 60px;
+    border-radius: 10%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    justify-self: flex-end;
+}
+
+.save-graph-inputs button {
+    background-color: rgb(152, 152, 255);
+}
+
+.save-graph-response button {
+    background-color: rgb(152, 255, 173);
+}
